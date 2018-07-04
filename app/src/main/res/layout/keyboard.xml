@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keyWidth="30%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp">
+
+    <Row android:keyHeight="5dp"/>
+    <Row android:keyHeight="2dp">
+        <!-- Flick Indicator -->
+        <Key
+            android:codes="0"
+            android:keyWidth="100%p"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="66" android:keyIcon="@drawable/s_backback" android:keyHeight="60dp" android:keyEdgeFlags="left" />
+        <Key android:codes="8" android:keyIcon="@drawable/s_aaaaa" android:popupLayout="@drawable/s_kk" android:keyHeight="60dp" />
+        <Key android:codes="9" android:keyIcon="@drawable/s_kk" android:keyHeight="60dp" />
+        <Key android:codes="10" android:keyIcon="@drawable/s_ss" android:keyHeight="60dp" />
+        <Key android:codes="67"  android:keyIcon="@drawable/s_hidarihidari" android:keyHeight="60dp" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:codes="21" android:keyIcon="@drawable/s_shidarishidari" android:keyHeight="60dp" android:keyEdgeFlags="left" />
+        <Key android:codes="11" android:keyIcon="@drawable/s_tt" android:keyHeight="60dp"/>
+        <Key android:codes="12"  android:keyIcon="@drawable/s_nn" android:keyHeight="60dp"/>
+        <Key android:codes="13"  android:keyIcon="@drawable/s_hh" android:keyHeight="60dp"/>
+        <Key android:codes="22" android:keyIcon="@drawable/s_smigismigi" android:keyHeight="60dp" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:codes="8" android:keyIcon="@drawable/s_kigoukigou" android:keyHeight="60dp" android:keyEdgeFlags="left" />
+        <Key android:codes="14"  android:keyIcon="@drawable/s_mm" android:keyHeight="60dp"/>
+        <Key android:codes="15"  android:keyIcon="@drawable/s_yy" android:keyHeight="60dp"/>
+        <Key android:codes="16"  android:keyIcon="@drawable/s_rr" android:keyHeight="60dp"/>
+        <Key android:codes="62" android:keyIcon="@drawable/s_spacespace" android:keyHeight="60dp" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:codes="212"  android:keyIcon="@drawable/s_aoaaoa" android:keyHeight="60dp" android:keyEdgeFlags="left" />
+        <Key android:codes="9"  android:keyIcon="@drawable/s_tikyugitikyugi" android:keyHeight="60dp"/>
+        <Key android:codes="7"  android:keyIcon="@drawable/s_ww" android:keyHeight="60dp"/>
+        <Key android:codes="9"  android:keyIcon="@drawable/s_marumaru" android:keyHeight="60dp"/>
+        <Key android:codes="66" android:keyIcon="@drawable/s_kaigyoukaigyou" android:keyHeight="60dp" android:keyEdgeFlags="right" />
+    </Row>
+
+    <!--<Row>
+        <Key android:codes="-5" android:keyLabel="Delete" android:isRepeatable="true" />
+        <Key android:codes="66" android:keyLabel="Return" android:isRepeatable="true" />
+    </Row> -->
+
+</Keyboard>
